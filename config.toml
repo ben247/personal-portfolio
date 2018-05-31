@@ -10,12 +10,11 @@ googleAnalytics = ""
 theme = "blank"
 
 [params]
-    site_author = "John Doe"
+    site_author = "Ben Whalley"
     site_description = "The awesome blog of John Doe."
     location = "Earth"
     # Link custom assets relative to /static
     avatar = "img/profile-image.png"
-    header_background = "img/desk.jpg"
     header_title = "Ben Whalley - Portfolio"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
@@ -26,10 +25,13 @@ theme = "blank"
 
 [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "/"
 [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Projects"
+    url = "/projects"
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
 
 [social]
     # Add your social network accounts to the profile section on the left
