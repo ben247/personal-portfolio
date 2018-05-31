@@ -24,6 +24,13 @@ theme = "blank"
     # Enable gogle analytics by entering your tracking code
     google_analytics = ""
 
+[[menu.main]]
+    name = "About"
+    url = "/about"
+[[menu.main]]
+    name = "About"
+    url = "/about"
+
 [social]
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
