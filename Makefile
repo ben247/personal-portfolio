@@ -4,4 +4,4 @@ build:
 deploy: build
 	aws s3 sync public/ s3://benwhalley.co.uk --acl public-read --delete
 	aws configure set preview.cloudfront true
-	aws cloudfront create-invalidation --distrobution-id E123MIFFT8VJIA --paths '/*'
+	aws cloudfront create-invalidation --distribution-id E123MIFFT8VJIA --paths '/*'
