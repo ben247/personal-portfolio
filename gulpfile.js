@@ -5,7 +5,7 @@ var gulp = require("gulp"),
 // Compile SCSS files to CSS
 gulp.task("scss", function() {
   gulp
-    .src("src/scss/**/*.scss")
+    .src("static/scss/**/*.scss")
     .pipe(
       sass({
         outputStyle: "compressed"
@@ -21,8 +21,13 @@ gulp.task("scss", function() {
 
 // Watch asset folder for changes
 gulp.task("watch", ["scss"], function() {
-  gulp.watch("src/scss/**/*", ["scss"]);
+  gulp.watch("static/scss/**/*", ["scss"]);
 });
 
 // Set watch as default task
 gulp.task("default", ["watch"]);
+
+gulp.task("jekyll-build", function(done) {
+  browser_sync.notify(messages.jekyll_build);
+  return cp.spawn(jekyll, ["build"], { stdio: "inherit" }).on("close", done);
+});

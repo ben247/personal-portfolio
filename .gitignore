@@ -1,2 +1,5 @@
+# Production
 public/
+
+# Dependencies
 node_modules/
