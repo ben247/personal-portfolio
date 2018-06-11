@@ -1,16 +1,40 @@
+html {
+  font-size: 16px;
+
+  @media screen and (min-width: 900px) {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
 body {
   background: #ffffff;
 }
 
+* {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
 nav ul {
   list-style: none;
-  text-align: center;
+  text-align: right;
   padding: 0;
   margin: 0;
 }
 
 nav a {
-  padding: 14px 16px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+}
+
+.header-title {
   text-decoration: none;
 }
 
@@ -27,9 +51,18 @@ nav a {
 
 .header-logo {
   flex: 50%;
+  font-size: 1.2rem;
 }
 
 .header-nav {
   flex: 50%;
-  background-color: red;
+  font-size: 1.1rem;
+}
+
+.header-subtitle {
+  color: #c9c9c9;
+}
+
+footer {
+  background-color: #262626;
 }
