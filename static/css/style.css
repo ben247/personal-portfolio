@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav a {
-  padding-left: 15px;
+  margin: 0 0 0 3rem;
   text-decoration: none;
 }
 
@@ -38,6 +38,10 @@ nav li {
   text-decoration: none;
 }
 
+.header-title {
+  color: #3b3a3a;
+}
+
 .page-top-line {
   width: 100%;
   height: 2px;
@@ -45,6 +49,10 @@ nav li {
 }
 
 .header-container {
+  padding: 2.8rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
@@ -59,7 +67,16 @@ nav li {
   font-size: 1.1rem;
 }
 
+.header-nav a {
+  color: #3b3a3a;
+}
+
 .header-subtitle {
+  color: #c9c9c9;
+  margin-top: 2px;
+}
+
+.header-email {
   color: #c9c9c9;
 }
 
