@@ -1,3 +1,185 @@
+html {
+  font-size: 16px;
+}
+
+::selection {
+  background: #e69d30;
+}
+
+::-moz-selection {
+  background: #e69d30;
+}
+
+/*////////// media queries //////////*/
+@media screen and (min-width: 900px) {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1200px) {
+  font-size: 20px;
+}
+
 body {
   background: #ffffff;
+<<<<<<< HEAD
+=======
+}
+
+* {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+/*////////// header //////////*/
+nav ul {
+  list-style: none;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  margin: 0 0 0 3rem;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+}
+
+.header-title {
+  text-decoration: none;
+  color: #3b3a3a;
+}
+
+.page-top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #e69d30;
+}
+
+.header-container {
+  padding: 2.8rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  flex: 50%;
+  font-size: 1.2rem;
+}
+
+.header-nav {
+  flex: 50%;
+  font-size: 1.1rem;
+}
+
+.header-nav a {
+  color: #3b3a3a;
+}
+
+.header-subtitle {
+  color: #c9c9c9;
+  margin-top: 2px;
+}
+
+.header-email {
+  color: #c9c9c9;
+}
+
+/* --title styles-- */
+.header-title:link {
+  color: #3b3a3a;
+  transition: all 200ms linear;
+}
+
+/* visited link */
+.header-title:visited {
+  color: #3b3a3a;
+}
+
+/* mouse over link */
+.header-title:hover {
+  color: #e69d30;
+  transition: all 200ms linear;
+}
+
+/* selected link */
+.header-title a :active {
+  color: #3b3a3a;
+}
+
+/* --nav styles-- */
+.header-nav a:link {
+  color: #3b3a3a;
+  transition: all 200ms linear;
+}
+
+/* visited link */
+.header-nav a:visited {
+  color: #3b3a3a;
+}
+
+/* mouse over link */
+.header-nav a:hover {
+  color: #e69d30;
+  transition: all 200ms linear;
+}
+
+/* selected link */
+.header-nav a:active {
+  color: #3b3a3a;
+}
+
+/* --email styles-- */
+.header-email a:link {
+  color: #c9c9c9;
+  transition: all 200ms linear;
+}
+
+/* visited link */
+.header-email a:visited {
+  color: #c9c9c9;
+}
+
+/* mouse over link */
+.header-email a:hover {
+  color: #e69d30;
+  transition: all 200ms linear;
+}
+
+/* selected link */
+.header-email a:active {
+  color: #c9c9c9;
+}
+
+/*////////// footer //////////*/
+footer {
+  background-color: #262626;
+  color: #5d5d5d;
+}
+
+/* --email styles-- */
+.footer-link a:link {
+  color: #5d5d5d;
+  transition: all 200ms linear;
+}
+
+/* visited link */
+.footer-link a:visited {
+  color: #5d5d5d;
+}
+
+/* mouse over link */
+.footer-link a:hover {
+  color: #e69d30;
+  transition: all 200ms linear;
+}
+
+/* selected link */
+.footer-link a:active {
+  color: #5d5d5d;
+>>>>>>> 313fa17902fe5d9ec6daf24cce8b89a14d5001a5
 }

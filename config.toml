@@ -1,6 +1,7 @@
+# config.toml file acts as a settings page for the site
 baseurl = "https://benwhalley.co.uk/"
 languageCode = "en-gb"
-title = "Ben Whalley - Portfolio"
+title = "Frontend Development - North West UK"
 # Define how many pages appear per site
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
@@ -11,6 +12,7 @@ theme = "blank"
 
 [params]
     site_author = "Ben Whalley"
+    author_email = "hey@benwhalley.co.uk"
     site_description = "The awesome blog of John Doe."
     location = "Earth"
     # Link custom assets relative to /static
