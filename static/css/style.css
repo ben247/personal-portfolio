@@ -33,6 +33,18 @@ body {
   list-style: none;
 }
 
+.txt_decor_none a {
+  text-decoration: none;
+}
+
+.orange_hl {
+  color: #e69d30;
+}
+
+.lt_grey {
+  color: #c9c9c9;
+}
+
 /*////////// header //////////*/
 nav ul {
   text-align: right;
@@ -99,7 +111,7 @@ footer {
 }
 
 .footer_container {
-  padding: 2.8rem 0;
+  padding: 2.8rem 0 0.5rem 0;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
