@@ -98,12 +98,14 @@ footer {
   color: #5d5d5d;
 }
 
-.footer_links {
-  display: flex;
+.footer_container {
   padding: 2.8rem 0;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.footer_links {
   display: flex;
 }
 
