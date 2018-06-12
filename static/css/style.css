@@ -21,17 +21,20 @@ html {
 
 body {
   background: #ffffff;
-<<<<<<< HEAD
-=======
 }
 
 * {
   font-family: "Muli", Helvetica, Arial, sans-serif;
 }
 
+/*////////// helpers //////////*/
+
+.lst_none {
+  list-style: none;
+}
+
 /*////////// header //////////*/
 nav ul {
-  list-style: none;
   text-align: right;
   padding: 0;
   margin: 0;
@@ -89,6 +92,25 @@ nav li {
   color: #c9c9c9;
 }
 
+/*////////// footer //////////*/
+footer {
+  background-color: #262626;
+  color: #5d5d5d;
+}
+
+.footer_links {
+  display: flex;
+  padding: 2.8rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.links_col {
+  flex: 25%;
+}
+
 /* --title styles-- */
 .header-title:link {
   color: #3b3a3a;
@@ -130,7 +152,7 @@ nav li {
 
 /* selected link */
 .header-nav a:active {
-  color: #3b3a3a;
+  color: #e69d30;
 }
 
 /* --email styles-- */
@@ -155,12 +177,6 @@ nav li {
   color: #c9c9c9;
 }
 
-/*////////// footer //////////*/
-footer {
-  background-color: #262626;
-  color: #5d5d5d;
-}
-
 /* --email styles-- */
 .footer-link a:link {
   color: #5d5d5d;
@@ -181,5 +197,4 @@ footer {
 /* selected link */
 .footer-link a:active {
   color: #5d5d5d;
->>>>>>> 313fa17902fe5d9ec6daf24cce8b89a14d5001a5
 }

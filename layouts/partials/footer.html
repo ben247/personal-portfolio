@@ -2,6 +2,48 @@
 	<p>Ben Whalley</p>
 	<a href="mailto:hey@benwhalley.co.uk">hey@benwhalley.co.uk</a>
 	<p>I’m a Northern frontend developer.</p>
+	<div class="footer_links">
+
+		<div class="links_col">
+			<p>Menu</p>
+			<ul class="lst_none">
+				{{ range .Site.Menus.main }}
+				<li>
+					<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+			</ul>
+		</div>
+		<div class="links_col">
+			<p>Contact</p>
+			<ul class="lst_none">
+				<li>
+					<span class="footer_email">
+						<a href="mailto:hey@benwhalley.co.uk">hey@benwhalley.co.uk</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+		<div class="links_col">
+			<p>Social</p>
+			<ul class="lst_none">
+				<li>
+					<a href="https://github.com/ben247">GitHub</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/benwhalley">Twitter</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/ben-whalley/">LinkedIn</a>
+				</li>
+				<li>
+					<a href="https://codepen.io/webdevben/#">CodePen</a>
+				</li>
+			</ul>
+		</div>
+		<div class="links_col"></div>
+	</div>
+
 	<p>Copyright Ben Whalley {{ now.Year }}&copy;
 		<span class="footer-link">
 			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
