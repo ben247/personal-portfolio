@@ -1,5 +1,5 @@
 # config.toml file acts as a settings page for the site
-baseurl = "https://benwhalley.co.uk/"
+baseurl = "https://www.benwhalley.co.uk/"
 languageCode = "en-gb"
 title = "Frontend Development - North West UK"
 # Define how many pages appear per site
