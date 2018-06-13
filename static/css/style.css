@@ -27,6 +27,17 @@ body {
   font-family: "Muli", Helvetica, Arial, sans-serif;
 }
 
+/*////////// flex-containers //////////*/
+.flex-container {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+}
+
+.flex-container > .flex-column {
+  flex: 1;
+  padding: 0 30px;
+}
 /*////////// helpers //////////*/
 
 .lst_none {
@@ -77,8 +88,6 @@ nav li {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  align-items: center;
 }
 
 .header-logo {
@@ -118,7 +127,7 @@ footer {
 }
 
 .footer_links {
-  display: flex;
+  background-color: goldenrod;
 }
 
 .links_col {
