@@ -1,4 +1,9 @@
-# Production
+### Production ###
 public/
-# Local Environment
-.vscode/
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
