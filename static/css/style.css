@@ -113,6 +113,14 @@ nav li {
   color: #c9c9c9;
 }
 
+/*////////// body //////////*/
+.body_container {
+  padding: 2.8rem 0 0.5rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /*////////// footer //////////*/
 footer {
   background-color: #262626;
