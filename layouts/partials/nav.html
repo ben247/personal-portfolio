@@ -1,14 +1,12 @@
-<nav class="header-nav">
-    <ul class="lst_none">
-        {{ $currentPage := . }} {{ range .Site.Menus.main }}
-        <li class="{{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }}">
-            <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-        <li>
-            <span class="header-email">
-                <a href="mailto:hey@benwhalley.co.uk">hey@benwhalley.co.uk</a>
-            </span>
-        </li>
-    </ul>
-</nav>
+<ul class="lst_none">
+    {{ $currentPage := . }} {{ range .Site.Menus.main }}
+    <li class="{{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent " main " .) }}active{{ end }}">
+        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+    <li>
+        <span class="header-email">
+            <a href="mailto:hey@benwhalley.co.uk">hey@benwhalley.co.uk</a>
+        </span>
+    </li>
+</ul>
