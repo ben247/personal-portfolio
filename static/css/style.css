@@ -27,6 +27,10 @@ body {
   font-family: "Muli", Helvetica, Arial, sans-serif;
 }
 
+.active {
+  background-color: red;
+}
+
 /*////////// flex-containers //////////*/
 .flex-container {
   display: flex;
@@ -169,21 +173,15 @@ footer {
   color: #3b3a3a;
   transition: all 200ms linear;
 }
-
-/* visited link */
 .header-nav a:visited {
   color: #3b3a3a;
 }
-
-/* mouse over link */
 .header-nav a:hover {
   color: #e69d30;
   transition: all 200ms linear;
 }
-
-/* selected link */
 .header-nav a:active {
-  color: #e69d30;
+  color: #3b3a3a;
 }
 
 /* --email styles-- */

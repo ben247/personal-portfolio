@@ -25,9 +25,9 @@
 			</div>
 			<nav class="header-nav">
 				<ul class="lst_none">
-					{{ range .Site.Menus.main }}
-					<li>
-						<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+					{{ $currentPage := . }} {{ range .Site.Menus.main }}
+					<li class="{{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }}">
+						<a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 					</li>
 					{{ end }}
 					<li>

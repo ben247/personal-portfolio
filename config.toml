@@ -27,14 +27,16 @@ theme = "blank"
 
 [[menu.main]]
     name = "About"
+    weight = 1
     url = "/"
 [[menu.main]]
     name = "Projects"
+    weight = 2
     url = "/projects"
 [[menu.main]]
     name = "Blog"
+    weight = 3
     url = "/blog"
-
 [social]
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
