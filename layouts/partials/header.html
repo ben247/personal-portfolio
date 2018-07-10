@@ -17,25 +17,14 @@
 
 <body>
 	<header>
-		<div class="page-top-line"></div>
-		<div class="header-container flex-container">
-			<div class="header-logo">
-				<a class="header-title" href="{{ .Site.BaseURL }}">Ben Whalley</a>
-				<p class="header-subtitle">Frontend Developer</p>
+		<div class="wrapper">
+			<div class="page-top-line"></div>
+			<div class="header-container flex-container">
+				<div class="header-logo">
+					<a class="header-title" href="{{ .Site.BaseURL }}">Ben Whalley</a>
+					<p class="header-subtitle">Frontend Developer</p>
+					<nav class="header-menu">{{ partial "nav" . }}</nav>
+				</div>
 			</div>
-			<nav class="header-nav">
-				<ul class="lst_none">
-					{{ $currentPage := . }} {{ range .Site.Menus.main }}
-					<li class="{{ if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }}active{{ end }}">
-						<a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-					</li>
-					{{ end }}
-					<li>
-						<span class="header-email">
-							<a href="mailto:hey@benwhalley.co.uk">hey@benwhalley.co.uk</a>
-						</span>
-					</li>
-				</ul>
-			</nav>
 		</div>
 	</header>
