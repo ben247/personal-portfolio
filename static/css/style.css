@@ -27,10 +27,6 @@ body {
   font-family: "Muli", Helvetica, Arial, sans-serif;
 }
 
-.active {
-  background-color: red;
-}
-
 /*////////// flex-containers //////////*/
 .flex-container {
   display: flex;
@@ -104,10 +100,6 @@ nav li {
   font-size: 1.1rem;
 }
 
-.header-nav a {
-  color: #3b3a3a;
-}
-
 .header-subtitle {
   color: #c9c9c9;
   margin-top: 2px;
@@ -169,8 +161,11 @@ footer {
 }
 
 /* --nav styles-- */
+.active a {
+  color: #e69d30;
+}
+
 .header-nav a:link {
-  color: #3b3a3a;
   transition: all 200ms linear;
 }
 .header-nav a:visited {
@@ -181,7 +176,7 @@ footer {
   transition: all 200ms linear;
 }
 .header-nav a:active {
-  color: #3b3a3a;
+  color: #e69d30;
 }
 
 /* --email styles-- */
