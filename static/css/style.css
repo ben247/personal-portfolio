@@ -88,6 +88,7 @@ nav li {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  align-items: center;
 }
 
 .header-logo {
@@ -150,7 +151,12 @@ footer {
 }
 
 /* mouse over link */
-.header-title:hover {
+/* .header-title:hover {
+  color: #e69d30;
+  transition: all 200ms linear;
+} */
+
+.colour-fade:hover {
   color: #e69d30;
   transition: all 200ms linear;
 }
@@ -162,21 +168,7 @@ footer {
 
 /* --nav styles-- */
 .active a {
-  color: #e69d30;
-}
-
-.header-nav a:link {
-  transition: all 200ms linear;
-}
-.header-nav a:visited {
-  color: #3b3a3a;
-}
-.header-nav a:hover {
-  color: #e69d30;
-  transition: all 200ms linear;
-}
-.header-nav a:active {
-  color: #e69d30;
+  color: #e63039;
 }
 
 /* --email styles-- */

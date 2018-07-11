@@ -1,4 +1,4 @@
-<ul class="lst_none">
+<ul class="lst_none colour-fade">
     {{ $currentPage := . }} {{ range .Site.Menus.main }}
     <li {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active" {{ end }}>
         <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
