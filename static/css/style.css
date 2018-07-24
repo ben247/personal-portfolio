@@ -156,6 +156,10 @@ footer {
   transition: all 200ms linear;
 } */
 
+a {
+  color: #3b3a3a;
+}
+
 .colour-fade:hover {
   color: #e69d30;
   transition: all 200ms linear;
@@ -168,7 +172,7 @@ footer {
 
 /* --nav styles-- */
 .active a {
-  color: #e63039;
+  color: #e69d30;
 }
 
 /* --email styles-- */
