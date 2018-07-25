@@ -10,6 +10,10 @@ html {
   background: #e69d30;
 }
 
+.container {
+  width: 1200px;
+}
+
 /*////////// media queries //////////*/
 @media screen and (min-width: 900px) {
   font-size: 18px;
@@ -219,8 +223,20 @@ a {
   color: #5d5d5d;
 }
 
+/*/////////// Home page Content //////////*/
+
+.homepage-content {
+  margin: 0 auto;
+}
+
 /*/////////// portfolio grid //////////*/
 
-.portfolio-grid {
-  background-repeat: no-repeat;
+.portfolio-img {
+  margin-bottom: 40px;
 }
+
+.h-xs-300 {
+  height: 300px;
+}
+
+/*/////////// portfolio grid - hover effect //////////*/

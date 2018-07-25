@@ -2,11 +2,30 @@
 <main class="body_container flex-container" aria-role="main">
 	<div class="homepage-content">
 		<h2>test</h2>
-		<div class="portfolio-grid row mb-xs-20 mb-sm-40">
-			<div class="bg_img" style="background-image: url( /images/IMG_695948.jpg );">
-				<h1>Portfolio item 1</h1>
+		<!-- Portfolio Grid -->
+		<div class="row mb-xs-60 mb-md-80">
+			<div class="portfolio-img col-xs-12 col-sm-6 mb-xs-80 mb-sm-40">
+				<div class="bg_img h-xs-300" style="background-image: url( /images/IMG_695948.jpg );">
+					<h1>Avada</h1>
+				</div>
+			</div>
+			<div class="portfolio-img col-xs-12 col-sm-6 mb-xs-80 mb-sm-40">
+				<div class="bg_img h-xs-300" style="background-image: url( /images/IMG_695948.jpg );">
+					<h1>Portfolio item 2</h1>
+				</div>
+			</div>
+			<div class="portfolio-img col-xs-12 col-sm-6 mb-xs-80 mb-sm-40">
+				<div class="bg_img h-xs-300" style="background-image: url( /images/IMG_695948.jpg );">
+					<h1>Portfolio item 3</h1>
+				</div>
+			</div>
+			<div class="portfolio-img col-xs-12 col-sm-6 mb-xs-80 mb-sm-40">
+				<div class="bg_img h-xs-300" style="background-image: url( /images/IMG_695948.jpg );">
+					<h1>Portfolio item 4</h1>
+				</div>
 			</div>
 		</div>
+
 		<!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
 		{{.Content}}
 	</div>
