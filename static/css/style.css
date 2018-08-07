@@ -1,3 +1,7 @@
+/*////////// reset //////////*/
+
+/*////////// base //////////*/
+
 html {
   font-size: 16px;
 }
@@ -14,7 +18,26 @@ html {
   width: 1200px;
 }
 
+.body_container {
+  padding: 2.8rem 0 0.5rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-container {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+}
+
+.flex-container > .flex-column {
+  flex: 1;
+  padding: 0 30px;
+}
+
 /*////////// media queries //////////*/
+
 @media screen and (min-width: 900px) {
   font-size: 18px;
 }
@@ -31,18 +54,7 @@ body {
   font-family: "Muli", Helvetica, Arial, sans-serif;
 }
 
-/*////////// flex-containers //////////*/
-.flex-container {
-  display: flex;
-  display: -ms-flex;
-  display: -webkit-flex;
-}
-
-.flex-container > .flex-column {
-  flex: 1;
-  padding: 0 30px;
-}
-/*////////// helpers //////////*/
+/*////////// general styles //////////*/
 
 .lst_none {
   list-style: none;
@@ -60,7 +72,12 @@ body {
   color: #c9c9c9;
 }
 
+.homepage-content {
+  margin: 0 auto;
+}
+
 /*////////// header //////////*/
+
 nav ul {
   text-align: right;
   padding: 0;
@@ -114,15 +131,36 @@ nav li {
   color: #c9c9c9;
 }
 
-/*////////// body //////////*/
-.body_container {
-  padding: 2.8rem 0 0.5rem 0;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+/*////////// nav //////////*/
+
+/*////////// content //////////*/
+
+/* .portfolio-img {
+  margin-bottom: 40px;
+} */
+
+.h-xs-300 {
+  height: 300px;
+}
+
+.grid-wrapper {
+  display: grid;
+  background-color: #fff;
+  color: #444;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
 /*////////// footer //////////*/
+
 footer {
   background-color: #262626;
   color: #5d5d5d;
@@ -223,20 +261,4 @@ a {
   color: #5d5d5d;
 }
 
-/*/////////// Home page Content //////////*/
-
-.homepage-content {
-  margin: 0 auto;
-}
-
-/*/////////// portfolio grid //////////*/
-
-.portfolio-img {
-  margin-bottom: 40px;
-}
-
-.h-xs-300 {
-  height: 300px;
-}
-
-/*/////////// portfolio grid - hover effect //////////*/
+/*////////// additional //////////*/
