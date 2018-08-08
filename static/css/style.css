@@ -14,28 +14,6 @@ html {
   background: #e69d30;
 }
 
-.container {
-  width: 1200px;
-}
-
-.body_container {
-  padding: 2.8rem 0 0.5rem 0;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.flex-container {
-  display: flex;
-  display: -ms-flex;
-  display: -webkit-flex;
-}
-
-.flex-container > .flex-column {
-  flex: 1;
-  padding: 0 30px;
-}
-
 /*////////// media queries //////////*/
 
 @media screen and (min-width: 900px) {
@@ -72,7 +50,7 @@ body {
   color: #c9c9c9;
 }
 
-.homepage-content {
+.center-content {
   margin: 0 auto;
 }
 
@@ -135,28 +113,39 @@ nav li {
 
 /*////////// content //////////*/
 
-/* .portfolio-img {
-  margin-bottom: 40px;
-} */
-
-.h-xs-300 {
-  height: 300px;
-}
-
 .grid-wrapper {
   display: grid;
-  background-color: #fff;
-  color: #444;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
 }
 
 .grid-box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
+  height: 300px;
+}
+
+.container {
+  width: 1200px;
+}
+
+.body_container {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  padding: 2.8rem 0 0.5rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-container {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+}
+
+.flex-container > .flex-column {
+  flex: 1;
+  padding: 0 30px;
 }
 
 /*////////// footer //////////*/
