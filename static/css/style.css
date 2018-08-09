@@ -14,6 +14,23 @@ html {
   background: #e69d30;
 }
 
+a:link {
+  /* Applies to all unvisited links */
+  text-decoration: none;
+}
+a:visited {
+  /* Applies to all visited links */
+  text-decoration: none;
+}
+a:hover {
+  /* Applies to links under the pointer */
+  text-decoration: none;
+}
+a:active {
+  /* Applies to activated links */
+  text-decoration: none;
+}
+
 /*////////// media queries //////////*/
 
 @media screen and (min-width: 900px) {
@@ -160,86 +177,6 @@ footer {
 
 .links_col {
   flex: 25%;
-}
-
-/* --title styles-- */
-.header-title:link {
-  color: #3b3a3a;
-  transition: all 200ms linear;
-}
-
-/* visited link */
-.header-title:visited {
-  color: #3b3a3a;
-}
-
-/* mouse over link */
-/* .header-title:hover {
-  color: #e69d30;
-  transition: all 200ms linear;
-} */
-
-a {
-  color: #3b3a3a;
-}
-
-.colour-fade:hover {
-  color: #e69d30;
-  transition: all 200ms linear;
-}
-
-/* selected link */
-.header-title a :active {
-  color: #3b3a3a;
-}
-
-/* --nav styles-- */
-.active a {
-  color: #e69d30;
-}
-
-/* --email styles-- */
-.header-email a:link {
-  color: #c9c9c9;
-  transition: all 200ms linear;
-}
-
-/* visited link */
-.header-email a:visited {
-  color: #c9c9c9;
-}
-
-/* mouse over link */
-.header-email a:hover {
-  color: #e69d30;
-  transition: all 200ms linear;
-}
-
-/* selected link */
-.header-email a:active {
-  color: #c9c9c9;
-}
-
-/* --email styles-- */
-.footer-link a:link {
-  color: #5d5d5d;
-  transition: all 200ms linear;
-}
-
-/* visited link */
-.footer-link a:visited {
-  color: #5d5d5d;
-}
-
-/* mouse over link */
-.footer-link a:hover {
-  color: #e69d30;
-  transition: all 200ms linear;
-}
-
-/* selected link */
-.footer-link a:active {
-  color: #5d5d5d;
 }
 
 /*////////// additional //////////*/
