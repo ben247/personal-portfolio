@@ -111,30 +111,16 @@ nav li {
 
 /*////////// nav //////////*/
 
-/*////////// content //////////*/
-
-.grid-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-}
-
-.grid-box {
-  padding: 20px;
-  height: 300px;
-}
+/*////////// main //////////*/
 
 .container {
   width: 1200px;
 }
 
-.body_container {
+.grid-wrapper {
   display: grid;
-  grid-template-columns: 1, 1fr;
-  padding: 2.8rem 0 0.5rem 0;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
 }
 
 .flex-container {
@@ -146,6 +132,12 @@ nav li {
 .flex-container > .flex-column {
   flex: 1;
   padding: 0 30px;
+}
+
+.main {
+  border: dashed red;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /*////////// footer //////////*/

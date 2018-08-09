@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<main class="body_container flex-container" aria-role="main">
+<div class="main">
 	<div>
 		<p>
 			Hey, I'm a front-end developer from Lancashire, Ireland. I can help you build your next product. I design, build, operate
@@ -11,22 +11,22 @@
 		<h2>test</h2>
 		<!-- Portfolio Grid -->
 		<div class="grid-wrapper">
-			<div class="grid-box">
+			<div>
 				<div class="bg_img" style="background-image: url( /images/IMG_695948.jpg );">
 					<h1>Portfolio item 1</h1>
 				</div>
 			</div>
-			<div class="grid-box">
+			<div>
 				<div class="bg_img" style="background-image: url( /images/IMG_695948.jpg );">
 					<h1>Portfolio item 2</h1>
 				</div>
 			</div>
-			<div class="grid-box">
+			<div>
 				<div class="bg_img" style="background-image: url( /images/IMG_695948.jpg );">
 					<h1>Portfolio item 3</h1>
 				</div>
 			</div>
-			<div class="grid-box">
+			<div>
 				<div class="bg_img" style="background-image: url( /images/IMG_695948.jpg );">
 					<h1>Portfolio item 4</h1>
 				</div>
@@ -36,5 +36,5 @@
 		<!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
 		{{.Content}}
 	</div>
-</main>
+</div>
 {{ partial "sidebar.html" . }} {{ partial "footer.html" . }}
