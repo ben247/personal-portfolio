@@ -81,7 +81,6 @@ nav ul {
 
 nav a {
   margin: 0 0 0 3rem;
-  text-decoration: none;
 }
 
 nav li {
@@ -89,7 +88,6 @@ nav li {
 }
 
 .header-title {
-  text-decoration: none;
   color: #3b3a3a;
 }
 
@@ -127,6 +125,25 @@ nav li {
 }
 
 /*////////// nav //////////*/
+
+a.colour-fade:link {
+  /* Applies to unvisited links of class mainNav */
+  text-decoration: none;
+}
+a.colour-fade:visited {
+  /* Applies to visited links of class mainNav */
+  text-decoration: none;
+}
+a.colour-fade:hover {
+  /* Applies to links under the pointer of class mainNav */
+  transition: all 200ms linear;
+  color: #f0f
+  text-decoration: none;
+}
+a.colour-fade:active {
+  /* Applies to activated links of class mainNav */
+  text-decoration: none;
+}
 
 /*////////// main //////////*/
 
