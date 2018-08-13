@@ -55,10 +55,6 @@ body {
   list-style: none;
 }
 
-.txt_decor_none a {
-  text-decoration: none;
-}
-
 .orange_hl {
   color: #e69d30;
 }
@@ -127,21 +123,20 @@ nav li {
 /*////////// nav //////////*/
 
 a.colour-fade:link {
-  /* Applies to unvisited links of class mainNav */
   text-decoration: none;
 }
+
 a.colour-fade:visited {
-  /* Applies to visited links of class mainNav */
   text-decoration: none;
 }
+
 a.colour-fade:hover {
-  /* Applies to links under the pointer of class mainNav */
   transition: all 200ms linear;
-  color: #f0f
+  color: #e69d30;
   text-decoration: none;
 }
+
 a.colour-fade:active {
-  /* Applies to activated links of class mainNav */
   text-decoration: none;
 }
 
