@@ -6,6 +6,10 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  color: #3b3b3b;
+}
+
 ::selection {
   background: #e69d30;
 }
@@ -15,19 +19,18 @@ html {
 }
 
 a:link {
-  /* Applies to all unvisited links */
   text-decoration: none;
 }
+
 a:visited {
-  /* Applies to all visited links */
   text-decoration: none;
 }
+
 a:hover {
-  /* Applies to links under the pointer */
   text-decoration: none;
 }
+
 a:active {
-  /* Applies to activated links */
   text-decoration: none;
 }
 
@@ -51,6 +54,10 @@ body {
 
 /*////////// general styles //////////*/
 
+.colour-fade {
+  transition: all 200ms ease-in-out;
+}
+
 .lst_none {
   list-style: none;
 }
@@ -67,7 +74,50 @@ body {
   margin: 0 auto;
 }
 
+.hero-title {
+  font-size: 2.4rem;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
 /*////////// header //////////*/
+
+.header-title {
+  color: #3b3a3a;
+}
+
+.page-top-line {
+  width: 100%;
+  height: 2px;
+  background-color: #e69d30;
+}
+
+.header-container {
+  padding: 2.5rem 0;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-logo {
+  flex: 50%;
+  font-size: 1.2rem;
+}
+
+.header-subtitle {
+  color: #c9c9c9;
+  margin-top: 2px;
+}
+
+.header-email {
+  color: #c9c9c9;
+}
+
+.header-email:hover {
+  color: #e69d30;
+}
+
+/*////////// nav //////////*/
 
 nav ul {
   text-align: right;
@@ -83,44 +133,14 @@ nav li {
   display: inline;
 }
 
-.header-title {
-  color: #3b3a3a;
-}
-
-.page-top-line {
-  width: 100%;
-  height: 2px;
-  background-color: #e69d30;
-}
-
-.header-container {
-  padding: 2.8rem 0;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-}
-
-.header-logo {
-  flex: 50%;
-  font-size: 1.2rem;
-}
-
 .header-nav {
   flex: 50%;
   font-size: 1.1rem;
 }
 
-.header-subtitle {
-  color: #c9c9c9;
-  margin-top: 2px;
+.header-nav a {
+  color: #3b3a3a;
 }
-
-.header-email {
-  color: #c9c9c9;
-}
-
-/*////////// nav //////////*/
 
 a.colour-fade:link {
   text-decoration: none;
@@ -131,7 +151,6 @@ a.colour-fade:visited {
 }
 
 a.colour-fade:hover {
-  transition: all 200ms linear;
   color: #e69d30;
   text-decoration: none;
 }

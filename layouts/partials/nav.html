@@ -1,12 +1,12 @@
 <ul class="lst_none colour-fade">
     {{ $currentPage := . }} {{ range .Site.Menus.main }}
     <li {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active" {{ end }}>
-        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        <a class="colour-fade" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
     </li>
     {{ end }}
     <li>
-        <span class="header-email">
-            <a href="mailto:hey@benwhalley.co.uk">hey@benwhalley.co.uk</a>
-        </span>
+        <a href="mailto:hey@benwhalley.co.uk">
+            <span class="header-email colour-fade">hey@benwhalley.co.uk</span>
+        </a>
     </li>
 </ul>
