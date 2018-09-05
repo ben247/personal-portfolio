@@ -76,7 +76,15 @@ body {
 
 .hero-title {
   font-size: 2.4rem;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+.hero-content {
+  margin: 7rem 0;
+}
+
+.hero-text {
+  font-size: 1.8rem;
 }
 
 /*////////// header //////////*/
@@ -111,6 +119,11 @@ body {
 
 .header-email {
   color: #c9c9c9;
+}
+
+.body-email {
+  color: #e69d30;
+  text-decoration: underline;
 }
 
 .header-email:hover {
@@ -161,6 +174,15 @@ a.colour-fade:active {
 
 /*////////// main //////////*/
 
+.subtitle-bar-title {
+  color: #eeeeee;
+}
+
+.subtitle-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .container {
   width: 1200px;
 }
@@ -183,7 +205,6 @@ a.colour-fade:active {
 }
 
 .main {
-  border: dashed red;
   max-width: 1200px;
   margin: 0 auto;
 }
